@@ -123,7 +123,7 @@ msconvert Z:\eslerm\meArab2019\raw\meArab2019*.RAW --mzML --filter "peakPicking 
 
 Ask for help if this is your first time using command line.
 
-To use command line run `cmd` from the start menu. To change directories type: `cd Z:\folder`. To list what is in the directory enter: `dir`.
+To open command line run `cmd` from the start menu. To change directories type: `cd Z:\folder`. To list what is in the directory enter: `dir`.
 
 #### Voltage Polarity
 
@@ -152,21 +152,15 @@ GalaxyP and UseGaalxy.eu accept our tool list suggestions:
 
 ## Data Processing
 
-See W4M's [Galaxy Training's Mass Spectrometry: LC-MS Analysis](https://galaxyproject.github.io/training-material/topics/metabolomics/tutorials/lcms/tutorial.html) for a walkthrough of pre-processing steps. The following are companion notes to that guide.
+See W4M's [Galaxy Training's Mass Spectrometry: LC-MS Analysis](https://galaxyproject.github.io/training-material/topics/metabolomics/tutorials/lcms/tutorial.html) for a walkthrough of W4M data processing steps. The following are companion notes to that guide.
+
+> XCMS documentation is useful for understanding what parameters mean.
 
 ### Pre-processing Data
 
-XCMS documentation is useful for understanding what parameters mean.
-
-### Data Upload
-
-Make sure to upload mzML data as a collection.
-
-There is a [Galaxy Tutorial](https://galaxyproject.org/tutorials/collections/) on how collections work.
-
-### QE Parameters
-
 General parameters for the QE with a C18 column are saved in [a Galaxy Workflow](https://galaxy.workflow4metabolomics.org/u/mesler/w/pre-processing-extract). 
+
+> Note: Make sure to upload mzML data as a collection. There is a [Galaxy Tutorial](https://galaxyproject.org/tutorials/collections/) on how collections work.
 
 ### Post-processing Data
 
